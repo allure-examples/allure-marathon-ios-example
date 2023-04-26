@@ -7,13 +7,14 @@
       buildImplicitDependencies = "YES">
       <BuildActionEntries>
          <BuildActionEntry
-            buildForTesting = "NO"
+            buildForTesting = "YES"
             buildForRunning = "NO"
             buildForProfiling = "NO"
             buildForArchiving = "NO"
             buildForAnalyzing = "NO">
-            <AutocreatedTestPlanReference>
-            </AutocreatedTestPlanReference>
+            <TestPlanReference
+               reference = "container:ios.allure.exapmle.xctestplan">
+            </TestPlanReference>
          </BuildActionEntry>
          <BuildActionEntry
             buildForTesting = "YES"
@@ -24,37 +25,37 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E7F5A0F729F90FDD008CE518"
-               BuildableName = "ios.allure.exapmle.app"
-               BlueprintName = "ios.allure.exapmle"
-               ReferencedContainer = "container:ios.allure.exapmle.xcodeproj">
+               BuildableName = "ios-allure-example.app"
+               BlueprintName = "ios-allure-example"
+               ReferencedContainer = "container:ios-allure-example.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
             buildForTesting = "YES"
-            buildForRunning = "NO"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E7F5A10729F90FDE008CE518"
-               BuildableName = "ios.allure.exapmleTests.xctest"
-               BlueprintName = "ios.allure.exapmleTests"
-               ReferencedContainer = "container:ios.allure.exapmle.xcodeproj">
+               BuildableName = "ios-allure-exampleTests.xctest"
+               BlueprintName = "ios-allure-exampleTests"
+               ReferencedContainer = "container:ios-allure-example.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
             buildForTesting = "YES"
-            buildForRunning = "NO"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E7F5A11129F90FDE008CE518"
-               BuildableName = "ios.allure.exapmleUITests.xctest"
-               BlueprintName = "ios.allure.exapmleUITests"
-               ReferencedContainer = "container:ios.allure.exapmle.xcodeproj">
+               BuildableName = "ios-allure-exampleUITests.xctest"
+               BlueprintName = "ios-allure-exampleUITests"
+               ReferencedContainer = "container:ios-allure-example.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -70,30 +71,6 @@
             default = "YES">
          </TestPlanReference>
       </TestPlans>
-      <Testables>
-         <TestableReference
-            skipped = "YES"
-            parallelizable = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E7F5A10729F90FDE008CE518"
-               BuildableName = "ios.allure.exapmleTests.xctest"
-               BlueprintName = "ios.allure.exapmleTests"
-               ReferencedContainer = "container:ios.allure.exapmle.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO"
-            parallelizable = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E7F5A11129F90FDE008CE518"
-               BuildableName = "ios.allure.exapmleUITests.xctest"
-               BlueprintName = "ios.allure.exapmleUITests"
-               ReferencedContainer = "container:ios.allure.exapmle.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-      </Testables>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -105,16 +82,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E7F5A0F729F90FDD008CE518"
-            BuildableName = "ios.allure.exapmle.app"
-            BlueprintName = "ios.allure.exapmle"
-            ReferencedContainer = "container:ios.allure.exapmle.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -122,16 +89,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E7F5A0F729F90FDD008CE518"
-            BuildableName = "ios.allure.exapmle.app"
-            BlueprintName = "ios.allure.exapmle"
-            ReferencedContainer = "container:ios.allure.exapmle.xcodeproj">
+            BuildableName = "ios-allure-example.app"
+            BlueprintName = "ios-allure-example"
+            ReferencedContainer = "container:ios-allure-example.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

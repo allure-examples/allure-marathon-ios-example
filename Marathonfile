@@ -5,8 +5,8 @@ debug: true
 vendorConfiguration:
   type: "iOS"
   bundle:
-    application: "/Users/nataliya/Library/Developer/Xcode/DerivedData/ios.allure.exapmle-dkmoscnwqyfbpdhfoykdzzhbdomm/Build/Products/Debug-iphonesimulator/ios.allure.exapmle.app"
-    testApplication: "/Users/nataliya/Library/Developer/Xcode/DerivedData/ios.allure.exapmle-dkmoscnwqyfbpdhfoykdzzhbdomm/Build/Products/Debug-iphonesimulator/ios.allure.exapmleUITests-Runner.app/PlugIns/ios.allure.exapmleUITests.xctest"
+    application: "/Users/nataliya/Library/Developer/Xcode/DerivedData/ios-allure-example-afkyithhvyrzrafrayckonmmdbsc/Build/Products/Debug-iphonesimulator/ios-allure-example.app"
+    testApplication: "/Users/nataliya/Library/Developer/Xcode/DerivedData/ios-allure-example-afkyithhvyrzrafrayckonmmdbsc/Build/Products/Debug-iphonesimulator/ios-allure-exampleUITests-Runner.app/PlugIns/ios-allure-exampleUITests.xctest"
     testType: "xcuitest"
   xcresult:
     pull: true
