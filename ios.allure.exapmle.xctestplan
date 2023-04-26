@@ -1,0 +1,38 @@
+{
+  "configurations" : [
+    {
+      "id" : "FAB3526A-0B7B-42C1-9340-1B39DA8E0019",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:ios.allure.exapmle.xcodeproj",
+      "identifier" : "E7F5A0F729F90FDD008CE518",
+      "name" : "ios.allure.exapmle"
+    }
+  },
+  "testTargets" : [
+    {
+      "enabled" : false,
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:ios.allure.exapmle.xcodeproj",
+        "identifier" : "E7F5A10729F90FDE008CE518",
+        "name" : "ios.allure.exapmleTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:ios.allure.exapmle.xcodeproj",
+        "identifier" : "E7F5A11129F90FDE008CE518",
+        "name" : "ios.allure.exapmleUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

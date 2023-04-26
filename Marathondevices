@@ -1,0 +1,6 @@
+workers:
+  - transport:
+      type: local
+    devices:
+      - type: simulator
+        udid: "6E168440-7923-4EDC-9BB9-54582A8CA9CA"

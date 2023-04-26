@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7F5A0FC29F90FDD008CE518 /* ios_allure_exapmleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F5A0FB29F90FDD008CE518 /* ios_allure_exapmleApp.swift */; };
+		E7F5A0FE29F90FDD008CE518 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F5A0FD29F90FDD008CE518 /* ContentView.swift */; };
+		E7F5A10029F90FDE008CE518 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7F5A0FF29F90FDE008CE518 /* Assets.xcassets */; };
+		E7F5A10329F90FDE008CE518 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7F5A10229F90FDE008CE518 /* Preview Assets.xcassets */; };
+		E7F5A10D29F90FDE008CE518 /* ios_allure_exapmleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F5A10C29F90FDE008CE518 /* ios_allure_exapmleTests.swift */; };
+		E7F5A11729F90FDE008CE518 /* ios_allure_exapmleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F5A11629F90FDE008CE518 /* ios_allure_exapmleUITests.swift */; };
+		E7F5A11929F90FDE008CE518 /* ios_allure_exapmleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F5A11829F90FDE008CE518 /* ios_allure_exapmleUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E7F5A10929F90FDE008CE518 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7F5A0F029F90FDD008CE518 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7F5A0F729F90FDD008CE518;
+			remoteInfo = ios.allure.exapmle;
+		};
+		E7F5A11329F90FDE008CE518 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7F5A0F029F90FDD008CE518 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7F5A0F729F90FDD008CE518;
+			remoteInfo = ios.allure.exapmle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E7F5A0F829F90FDD008CE518 /* ios.allure.exapmle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios.allure.exapmle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7F5A0FB29F90FDD008CE518 /* ios_allure_exapmleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_allure_exapmleApp.swift; sourceTree = "<group>"; };
+		E7F5A0FD29F90FDD008CE518 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E7F5A0FF29F90FDE008CE518 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7F5A10229F90FDE008CE518 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E7F5A10829F90FDE008CE518 /* ios.allure.exapmleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ios.allure.exapmleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7F5A10C29F90FDE008CE518 /* ios_allure_exapmleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_allure_exapmleTests.swift; sourceTree = "<group>"; };
+		E7F5A11229F90FDE008CE518 /* ios.allure.exapmleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ios.allure.exapmleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7F5A11629F90FDE008CE518 /* ios_allure_exapmleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_allure_exapmleUITests.swift; sourceTree = "<group>"; };
+		E7F5A11829F90FDE008CE518 /* ios_allure_exapmleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_allure_exapmleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E7F5A12529F92EF8008CE518 /* Marathonfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Marathonfile; sourceTree = "<group>"; };
+		E7F5A12629F92F15008CE518 /* Marathondevices */ = {isa = PBXFileReference; lastKnownFileType = text; path = Marathondevices; sourceTree = "<group>"; };
+		E7F5A12929F9364A008CE518 /* environment.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = environment.xml; sourceTree = "<group>"; };
+		E7F5A12B29F9364A008CE518 /* raw.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = raw.json; sourceTree = "<group>"; };
+		E7F5A12E29F9364A008CE518 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		E7F5A12F29F9364A008CE518 /* chart.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = chart.css; sourceTree = "<group>"; };
+		E7F5A13029F9364A008CE518 /* chart.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = chart.js; sourceTree = "<group>"; };
+		E7F5A13129F9364A008CE518 /* iframeResizer.contentWindow.min.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = iframeResizer.contentWindow.min.js; sourceTree = "<group>"; };
+		E7F5A13329F93A24008CE518 /* ios.allure.exapmle.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = ios.allure.exapmle.xctestplan; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7F5A0F529F90FDD008CE518 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7F5A10529F90FDE008CE518 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7F5A10F29F90FDE008CE518 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7F5A0EF29F90FDD008CE518 = {
+			isa = PBXGroup;
+			children = (
+				E7F5A13329F93A24008CE518 /* ios.allure.exapmle.xctestplan */,
+				E7F5A12729F9364A008CE518 /* marathon */,
+				E7F5A12629F92F15008CE518 /* Marathondevices */,
+				E7F5A12529F92EF8008CE518 /* Marathonfile */,
+				E7F5A0FA29F90FDD008CE518 /* ios.allure.exapmle */,
+				E7F5A10B29F90FDE008CE518 /* ios.allure.exapmleTests */,
+				E7F5A11529F90FDE008CE518 /* ios.allure.exapmleUITests */,
+				E7F5A0F929F90FDD008CE518 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7F5A0F929F90FDD008CE518 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7F5A0F829F90FDD008CE518 /* ios.allure.exapmle.app */,
+				E7F5A10829F90FDE008CE518 /* ios.allure.exapmleTests.xctest */,
+				E7F5A11229F90FDE008CE518 /* ios.allure.exapmleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7F5A0FA29F90FDD008CE518 /* ios.allure.exapmle */ = {
+			isa = PBXGroup;
+			children = (
+				E7F5A0FB29F90FDD008CE518 /* ios_allure_exapmleApp.swift */,
+				E7F5A0FD29F90FDD008CE518 /* ContentView.swift */,
+				E7F5A0FF29F90FDE008CE518 /* Assets.xcassets */,
+				E7F5A10129F90FDE008CE518 /* Preview Content */,
+			);
+			path = ios.allure.exapmle;
+			sourceTree = "<group>";
+		};
+		E7F5A10129F90FDE008CE518 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E7F5A10229F90FDE008CE518 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E7F5A10B29F90FDE008CE518 /* ios.allure.exapmleTests */ = {
+			isa = PBXGroup;
+			children = (
+				E7F5A10C29F90FDE008CE518 /* ios_allure_exapmleTests.swift */,
+			);
+			path = ios.allure.exapmleTests;
+			sourceTree = "<group>";
+		};
+		E7F5A11529F90FDE008CE518 /* ios.allure.exapmleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E7F5A11629F90FDE008CE518 /* ios_allure_exapmleUITests.swift */,
+				E7F5A11829F90FDE008CE518 /* ios_allure_exapmleUITestsLaunchTests.swift */,
+			);
+			path = ios.allure.exapmleUITests;
+			sourceTree = "<group>";
+		};
+		E7F5A12729F9364A008CE518 /* marathon */ = {
+			isa = PBXGroup;
+			children = (
+				E7F5A12829F9364A008CE518 /* allure-results */,
+				E7F5A12A29F9364A008CE518 /* test_result */,
+				E7F5A12C29F9364A008CE518 /* html */,
+			);
+			path = marathon;
+			sourceTree = "<group>";
+		};
+		E7F5A12829F9364A008CE518 /* allure-results */ = {
+			isa = PBXGroup;
+			children = (
+				E7F5A12929F9364A008CE518 /* environment.xml */,
+			);
+			path = "allure-results";
+			sourceTree = "<group>";
+		};
+		E7F5A12A29F9364A008CE518 /* test_result */ = {
+			isa = PBXGroup;
+			children = (
+				E7F5A12B29F9364A008CE518 /* raw.json */,
+			);
+			path = test_result;
+			sourceTree = "<group>";
+		};
+		E7F5A12C29F9364A008CE518 /* html */ = {
+			isa = PBXGroup;
+			children = (
+				E7F5A12D29F9364A008CE518 /* timeline */,
+			);
+			path = html;
+			sourceTree = "<group>";
+		};
+		E7F5A12D29F9364A008CE518 /* timeline */ = {
+			isa = PBXGroup;
+			children = (
+				E7F5A12E29F9364A008CE518 /* index.html */,
+				E7F5A12F29F9364A008CE518 /* chart.css */,
+				E7F5A13029F9364A008CE518 /* chart.js */,
+				E7F5A13129F9364A008CE518 /* iframeResizer.contentWindow.min.js */,
+			);
+			path = timeline;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7F5A0F729F90FDD008CE518 /* ios.allure.exapmle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7F5A11C29F90FDE008CE518 /* Build configuration list for PBXNativeTarget "ios.allure.exapmle" */;
+			buildPhases = (
+				E7F5A0F429F90FDD008CE518 /* Sources */,
+				E7F5A0F529F90FDD008CE518 /* Frameworks */,
+				E7F5A0F629F90FDD008CE518 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ios.allure.exapmle;
+			productName = ios.allure.exapmle;
+			productReference = E7F5A0F829F90FDD008CE518 /* ios.allure.exapmle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E7F5A10729F90FDE008CE518 /* ios.allure.exapmleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7F5A11F29F90FDE008CE518 /* Build configuration list for PBXNativeTarget "ios.allure.exapmleTests" */;
+			buildPhases = (
+				E7F5A10429F90FDE008CE518 /* Sources */,
+				E7F5A10529F90FDE008CE518 /* Frameworks */,
+				E7F5A10629F90FDE008CE518 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7F5A10A29F90FDE008CE518 /* PBXTargetDependency */,
+			);
+			name = ios.allure.exapmleTests;
+			productName = ios.allure.exapmleTests;
+			productReference = E7F5A10829F90FDE008CE518 /* ios.allure.exapmleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E7F5A11129F90FDE008CE518 /* ios.allure.exapmleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7F5A12229F90FDE008CE518 /* Build configuration list for PBXNativeTarget "ios.allure.exapmleUITests" */;
+			buildPhases = (
+				E7F5A10E29F90FDE008CE518 /* Sources */,
+				E7F5A10F29F90FDE008CE518 /* Frameworks */,
+				E7F5A11029F90FDE008CE518 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7F5A11429F90FDE008CE518 /* PBXTargetDependency */,
+			);
+			name = ios.allure.exapmleUITests;
+			productName = ios.allure.exapmleUITests;
+			productReference = E7F5A11229F90FDE008CE518 /* ios.allure.exapmleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7F5A0F029F90FDD008CE518 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					E7F5A0F729F90FDD008CE518 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					E7F5A10729F90FDE008CE518 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = E7F5A0F729F90FDD008CE518;
+					};
+					E7F5A11129F90FDE008CE518 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = E7F5A0F729F90FDD008CE518;
+					};
+				};
+			};
+			buildConfigurationList = E7F5A0F329F90FDD008CE518 /* Build configuration list for PBXProject "ios.allure.exapmle" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7F5A0EF29F90FDD008CE518;
+			productRefGroup = E7F5A0F929F90FDD008CE518 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7F5A0F729F90FDD008CE518 /* ios.allure.exapmle */,
+				E7F5A10729F90FDE008CE518 /* ios.allure.exapmleTests */,
+				E7F5A11129F90FDE008CE518 /* ios.allure.exapmleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7F5A0F629F90FDD008CE518 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7F5A10329F90FDE008CE518 /* Preview Assets.xcassets in Resources */,
+				E7F5A10029F90FDE008CE518 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7F5A10629F90FDE008CE518 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7F5A11029F90FDE008CE518 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7F5A0F429F90FDD008CE518 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7F5A0FE29F90FDD008CE518 /* ContentView.swift in Sources */,
+				E7F5A0FC29F90FDD008CE518 /* ios_allure_exapmleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7F5A10429F90FDE008CE518 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7F5A10D29F90FDE008CE518 /* ios_allure_exapmleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7F5A10E29F90FDE008CE518 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7F5A11929F90FDE008CE518 /* ios_allure_exapmleUITestsLaunchTests.swift in Sources */,
+				E7F5A11729F90FDE008CE518 /* ios_allure_exapmleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E7F5A10A29F90FDE008CE518 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7F5A0F729F90FDD008CE518 /* ios.allure.exapmle */;
+			targetProxy = E7F5A10929F90FDE008CE518 /* PBXContainerItemProxy */;
+		};
+		E7F5A11429F90FDE008CE518 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7F5A0F729F90FDD008CE518 /* ios.allure.exapmle */;
+			targetProxy = E7F5A11329F90FDE008CE518 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E7F5A11A29F90FDE008CE518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E7F5A11B29F90FDE008CE518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7F5A11D29F90FDE008CE518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ios.allure.exapmle/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				ENABLE_TESTING_SEARCH_PATHS = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = RandomNumber;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = NO;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "qameta.io.ios-allure-exapmle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7F5A11E29F90FDE008CE518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ios.allure.exapmle/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				ENABLE_TESTING_SEARCH_PATHS = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = RandomNumber;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = NO;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "qameta.io.ios-allure-exapmle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E7F5A12029F90FDE008CE518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "qameta.io.ios-allure-exapmleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios.allure.exapmle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ios.allure.exapmle";
+			};
+			name = Debug;
+		};
+		E7F5A12129F90FDE008CE518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "qameta.io.ios-allure-exapmleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios.allure.exapmle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ios.allure.exapmle";
+			};
+			name = Release;
+		};
+		E7F5A12329F90FDE008CE518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "qameta.io.ios-allure-exapmleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ios.allure.exapmle;
+			};
+			name = Debug;
+		};
+		E7F5A12429F90FDE008CE518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "qameta.io.ios-allure-exapmleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ios.allure.exapmle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7F5A0F329F90FDD008CE518 /* Build configuration list for PBXProject "ios.allure.exapmle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7F5A11A29F90FDE008CE518 /* Debug */,
+				E7F5A11B29F90FDE008CE518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7F5A11C29F90FDE008CE518 /* Build configuration list for PBXNativeTarget "ios.allure.exapmle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7F5A11D29F90FDE008CE518 /* Debug */,
+				E7F5A11E29F90FDE008CE518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7F5A11F29F90FDE008CE518 /* Build configuration list for PBXNativeTarget "ios.allure.exapmleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7F5A12029F90FDE008CE518 /* Debug */,
+				E7F5A12129F90FDE008CE518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7F5A12229F90FDE008CE518 /* Build configuration list for PBXNativeTarget "ios.allure.exapmleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7F5A12329F90FDE008CE518 /* Debug */,
+				E7F5A12429F90FDE008CE518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7F5A0F029F90FDD008CE518 /* Project object */;
+}
