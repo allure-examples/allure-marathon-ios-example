@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import ios_allure_exapmle
+@testable import ios_allure_example
 
 final class ios_allure_exapmleTests: XCTestCase {
 
